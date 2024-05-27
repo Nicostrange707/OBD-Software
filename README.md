@@ -13,7 +13,7 @@ Um die Version 2 zu starten muss der Befehlt `python main.py` ausgeführt werden
 
 ## Installation auf Raspberry Pi und Webserver für Version 3
 Ordner PI-API:
-script.py ist die Datei die auf dem Raspberry Pi ausgeführt werden muss mit dem Befehl `python3 script.py` um die API für das Webinterface zu starten und die OBD Daten zu übertragen. Die Datei zieht sich den neusten Stand aus dem Git Repo und ist somit immer auf dem neusten Stand.
+script.py ist die Datei die auf dem Raspberry Pi ausgeführt werden muss mit dem Befehl `python3 script.py` um die API für das Webinterface zu starten und die OBD Daten zu übertragen.
 
 Ordner Webinterface-OBD_II:
 Das Webinterface ist mit Angular 16 erstellt. Erster Befehlt um das Webinterface zu installieren: `npm install`. Danach `ng serve --o` um es zu starten.
