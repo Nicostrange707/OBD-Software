@@ -1,0 +1,17 @@
+Berechnete Motorlast
+
+Timing-Vorlauf
+Luftdurchsatz (MAF)
+Mit eingeschalteter MIL zurückgelegte Strecke
+Kraftstoffverteilerdruck (relativ zum Vakuum)
+Kraftstoffverteilerdruck (Direkteinspritzung)
+Eingabe des Kraftstoffstands
+Anzahl der Aufwärmvorgänge seit dem Löschen der Codes
+Zurückgelegte Strecke seit dem Löschen der Codes
+Dampfdruck des Verdunstungssystems
+Zeitlauf mit eingeschalteter MIL
+Zeit seit dem Löschen der Fehlercodes
+Ethanol-Kraftstoffprozentsatz
+Kraftstoffverteilerdruck (absolut)
+Verbleibende Lebensdauer des Hybrid-Akkupacks
+Zeitpunkt der Kraftstoffeinspritzung
