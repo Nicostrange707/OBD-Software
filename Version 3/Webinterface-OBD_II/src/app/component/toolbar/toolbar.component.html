@@ -1,0 +1,31 @@
+<mat-toolbar color="primary">
+  <button mat-button [routerLink]="['/', 'home']">
+    <p>OBD-2 Software</p>
+  </button>
+  <span class="spacer-medium"></span>
+  <button mat-button [routerLink]="['/', 'bauteile']">
+    <p>Bauteile</p>
+  </button>
+  <span class="spacer-small"></span>
+  <button mat-button [routerLink]="['/','liveanzeige']">
+    <p>Live Anzeige</p>
+  </button>
+  <span class="spacer-small"></span>
+  <button mat-button [routerLink]="['/','prüfstand']">
+    <p>Prüfstand</p>
+  </button>
+  <span class="spacer-small"></span>
+  <button mat-button [routerLink]="['/', 'motorlast']">
+    <p>Motorlast</p>
+  </button>
+  <span class="spacer"></span>
+  <button mat-button [routerLink]="['/','export']">
+    <p class="export">
+    <mat-icon class="icon">
+      download
+    </mat-icon>
+    Daten exportieren</p>
+  </button>
+</mat-toolbar>
+&nbsp;
+<router-outlet></router-outlet>
