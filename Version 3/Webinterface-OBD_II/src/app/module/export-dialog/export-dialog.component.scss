@@ -1,0 +1,9 @@
+  .title {
+    margin-left: 10px;
+  }
+  .mat-dialog-content {
+    > div {
+      display: flex;
+      flex-direction: column;
+    }
+  }

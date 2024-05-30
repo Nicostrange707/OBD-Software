@@ -12,13 +12,11 @@ export class ToolbarComponent {
 
     openDialog(): void {
         const dialogRef = this.dialog.open(ExportDialogComponent, {
-            width: '250px',
-            // Weitere Konfigurationen hier...
+            width: '600px',
         });
 
         dialogRef.afterClosed().subscribe(result => {
             console.log('Dialog geschlossen', result);
-            // Hier können Sie nach dem Schließen des Dialogs weitere Aktionen ausführen.
         });
   }
 }
