@@ -21,14 +21,6 @@ Das Webinterface ist mit Angular 16 erstellt. Erster Befehlt um das Webinterface
 
 ## Alle Befehle in der Übersicht
 
-| Version | Befehl |
-| ------- | ------ |
-| 1       | `python OBD-GUI.py` |
-| 2       | `python main.py` |
-| 3       | `python3 script.py` |
-|         | `ng serve --o` |
-
-
 | Version | Bereich | Befehl |
 | ------- | ------- | ------ |
 | 1       | Cmd | `python OBD-GUI.py` |
