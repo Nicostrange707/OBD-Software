@@ -4,7 +4,7 @@ import { PruefstandComponent } from "./module/pruefstand/pruefstand.component";
 import { LiveanzeigeComponent } from "./module/liveanzeige/liveanzeige.component";
 import { BauteileComponent } from "./module/bauteile/bauteile.component";
 import { HomeComponent } from "./component/home/home.component";
-import { DataExportComponent } from "./module/data-export/data-export.component";
+import { InfoDataComponent } from "./component/info-data/info-data.component";
 
 const defaultRoute = 'home';
 
@@ -35,7 +35,7 @@ export const routes: Routes = [
         component: MotorlastComponent
     },
     {
-        path: 'export',
-        component: DataExportComponent
+        path: 'info-data',
+        component: InfoDataComponent
     }
 ]

@@ -19,7 +19,7 @@
     <p>Motorlast</p>
   </button>
   <span class="spacer"></span>
-  <button mat-button [routerLink]="['/','export']">
+  <button mat-button (click)="openDialog()">
     <p class="export">
     <mat-icon class="icon">
       download
