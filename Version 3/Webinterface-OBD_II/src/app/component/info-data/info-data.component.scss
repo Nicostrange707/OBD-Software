@@ -1,0 +1,21 @@
+.mat-dialog-actions-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .footer {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #ccc;
+  }
+  
+  .footer p {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .footer p::after {
+    content: "\00A9";
+  }
