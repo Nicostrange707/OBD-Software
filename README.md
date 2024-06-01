@@ -31,8 +31,8 @@ Das Webinterface ist mit Angular 16 erstellt. Erster Befehlt um das Webinterface
 ## Aussehen der einzelnen Versionen
 
 Version1: 
-![Picture1](\OBD-pictures\Version1-1.PNG)
-![Picture2](\OBD-pictures\Version1-2.PNG)
-![Picture3](\OBD-pictures\Version1-3.PNG)
-![Picture4](\OBD-pictures\Version1-4.PNG)
-![Picture5](\OBD-pictures\Version1-5.PNG)
+![Version1-1](https://github.com/Nicostrange707/OBD-Software/assets/74682984/10d8a146-a446-4a9e-8f41-5065c1e4ad82)
+![Version1-2](https://github.com/Nicostrange707/OBD-Software/assets/74682984/71360fa5-2c98-4e19-9480-7a6be4f552f2)
+![Version1-3](https://github.com/Nicostrange707/OBD-Software/assets/74682984/01c4421a-fe28-43b1-8e73-02d68a8e5ff6)
+![Version1-4](https://github.com/Nicostrange707/OBD-Software/assets/74682984/77822909-ba6d-4e8b-8e5d-fb96879784c7)
+![Version1-5](https://github.com/Nicostrange707/OBD-Software/assets/74682984/ef289a46-606a-409d-8d36-9f4c11f33a62)
