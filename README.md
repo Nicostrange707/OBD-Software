@@ -28,7 +28,6 @@ Das Webinterface ist mit Angular 16 erstellt. Erster Befehlt um das Webinterface
 | 3       | Raspberry Pi CLI | `python3 script.py` |
 |         | Ordner Webinterface-OBD_II (vor dem Erstellen des dist Verzeichnisses zum deployen)|`npm install`,`ng serve --o` |
 
-## Aussehen der einzelnen Versionen
 
 Version1
 --- 
