@@ -1,26 +1,49 @@
 <h1 class="title">Exportieren</h1>
 <mat-divider></mat-divider>
 <div mat-dialog-content>
-  Wähle deine Exportoptionen aus:
   <form [formGroup]="exportOptionsForm">
     <div>
-      <mat-checkbox formControlName="option1">Option 1</mat-checkbox>
-      <mat-checkbox formControlName="option2">Option 2</mat-checkbox>
-      <mat-checkbox formControlName="option3">Option 3</mat-checkbox>
+      <p class="head-title">Drosselklappenüberwachung</p>
+      <mat-checkbox formControlName="option1">Drosselklappenstellung</mat-checkbox>
+      <mat-checkbox formControlName="option2">Relative Drosselklappenstellung</mat-checkbox>
+      <mat-checkbox formControlName="option3">Befohlener Drosselklappensteller</mat-checkbox>
     </div>
+    <mat-divider></mat-divider>
     <div>
-      <mat-checkbox formControlName="option4">Option 4</mat-checkbox>
-      <mat-checkbox formControlName="option5">Option 5</mat-checkbox>
-      <mat-checkbox formControlName="option6">Option 6</mat-checkbox>
+      <p class="head-title">Motorüberwachung</p>
+      <mat-checkbox formControlName="option4">Motorlaufzeit</mat-checkbox>
+      <mat-checkbox formControlName="option5">Motordrehzahl</mat-checkbox>
+      <mat-checkbox formControlName="option6">Ladedruck</mat-checkbox>
+      <mat-checkbox formControlName="option7">Motor Kühltemperatur</mat-checkbox>
+      <mat-checkbox formControlName="option8">Öltemperatur</mat-checkbox>
     </div>
+    <mat-divider></mat-divider>
     <div>
-      <mat-checkbox formControlName="option4">Option 7</mat-checkbox>
-      <mat-checkbox formControlName="option5">Option 8</mat-checkbox>
-      <mat-checkbox formControlName="option6">Option 9</mat-checkbox>
+      <p class="head-title">Tanküberwachung</p>
+      <mat-checkbox formControlName="option9">Treibstoffart</mat-checkbox>
+      <mat-checkbox formControlName="option10">Tankinhalt</mat-checkbox>
+      <mat-checkbox formControlName="option11">Treibstoffdruck</mat-checkbox>
     </div>
+    <mat-divider></mat-divider>
+    <div>
+      <p class="head-title">Ansaugung</p>
+      <mat-checkbox formControlName="option12">Ansauglufttemperatur</mat-checkbox>
+      <mat-checkbox formControlName="option13">Ansaugkrümmerdruck</mat-checkbox>
+    </div>
+    <mat-divider></mat-divider>
+    <div>
+      <p class="head-title">Prüfstand Daten</p>
+      <mat-checkbox formControlName="option14">Option 14</mat-checkbox>
+      <mat-checkbox formControlName="option15">Option 15</mat-checkbox>
+      <mat-checkbox formControlName="option16">Option 16</mat-checkbox>
+    </div>
+    <mat-divider></mat-divider>
   </form>
 </div>
 <div mat-dialog-actions>
   <button mat-raised-button color="accent" (click)="onCancelClick()">Abbrechen</button>
+  <span class="spacer-little"></span>
   <button mat-raised-button color="primary" (click)="onExportClick()">Exportieren</button>
+  <span class="spacer"></span>
+  <button mat-raised-button color="warn" (click)="onAllExportClick()">Alles Exportieren</button>
 </div>

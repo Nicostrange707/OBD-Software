@@ -11,3 +11,9 @@ body {
     background-color: #3F51B5;
     color: white;
   }
+  .info{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 1000;
+}

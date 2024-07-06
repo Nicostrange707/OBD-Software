@@ -12,11 +12,12 @@ import { OBDDataReducer } from './store/obd-data.reducer';
 
 import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
-import {MatCheckboxModule} from '@angular/material/checkbox';
+import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatDividerModule } from '@angular/material/divider';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
+import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { MatToolbarModule } from '@angular/material/toolbar';
 
@@ -59,6 +60,7 @@ import { InfoDataComponent } from './component/info-data/info-data.component';
     MatDividerModule,
     MatIconModule,
     MatListModule,
+    MatProgressSpinnerModule,
     MatSnackBarModule,
     MatToolbarModule,
     StoreModule.forRoot({

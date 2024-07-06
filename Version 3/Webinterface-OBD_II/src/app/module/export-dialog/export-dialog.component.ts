@@ -44,4 +44,13 @@ export class ExportDialogComponent {
       duration: 2000,
     });
   }
+
+  onAllExportClick(): void{
+    const selectedOptions = this.exportOptionsForm.value;
+    console.log('Selected options:', selectedOptions);
+    this.dialogRef.close(selectedOptions);
+    this.snackBar.open('Export gestartet', 'Schließen', {
+      duration: 2000,
+    });
+  }
 }
